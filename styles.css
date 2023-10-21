@@ -16,7 +16,7 @@
 	background-color:green;
 	order:1;
 }
-.holder{
+.A{
 	display:flex;
 	justify-content:space-between;
 	font-size:3rem;
@@ -27,22 +27,26 @@
 	width:100px;
 	background-color:red;
 	order:6;
+	margin:10px;
 }
 .b{
 	height:100px;
 	width:100px;
 	background-color:blue;
 	order:7;
+	margin:10px;
 }
 .c{
 	height:100px;
 	width:100px;
 	background-color:green;
+	margin:10px;
 }
-.item{
+.B{
 	display:flex;
-	flex-wrap:wrap;
+	flex-wrap:nowrap;
 	justify-content:space-between;
 	font-size:3rem;
+	
 }
 /* Your CSS Code here. */
